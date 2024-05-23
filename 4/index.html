@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="l"></h1>
+    <h1 id="h"></h1>
+    <h1 id="ans"></h1>
+
+    <script>
+        const areaOfRectangle = (l, h) => {
+
+area = l * h;
+return (area);
+}
+
+let l = 20, h = 15, ans;
+
+ans = areaOfRectangle(l, h);
+
+document.getElementById("l").innerHTML = (`Length is = ${l}`);
+document.getElementById("h").innerHTML = (`Height is = ${h}`);
+document.getElementById("ans").innerHTML = (`Area of Rectangle is = ${ans}`);
+    </script>
+</body>
+</html>
